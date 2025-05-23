@@ -1,0 +1,6 @@
+compute_environment: LOCAL_MACHINE
+distributed_type: MULTI_GPU
+num_processes: 8
+machine_rank: 0
+num_machines: 1
+rdzv_backend: static
