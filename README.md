@@ -1,4 +1,4 @@
-#SYNTHPERT
+#SYNTHPERT#
 
 *Environment*
 Please create the conda environment using:
