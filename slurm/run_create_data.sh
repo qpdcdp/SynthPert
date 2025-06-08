@@ -63,4 +63,5 @@ srun \
     --generator_lemmas \
     --marketplace_api_key \"${API_KEY}\" \
     --marketplace_url \"${MARKETPLACE_URL}\" \
-    --critic_acceptance_threshold \"${CRITIC_ACCEPTANCE_THRESHOLD}\""
+    --critic_acceptance_threshold \"${CRITIC_ACCEPTANCE_THRESHOLD}\"
+"
