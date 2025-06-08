@@ -40,7 +40,7 @@ echo "The head node IP is $MASTER_ADDR"
 
 
 # Define base path clearly so it's accessible inside the bash command
-BASE_PATH="/novo/projects/departments/mi/lwph/PertRL"
+BASE_PATH="/path/to/project_dir"
 
 # Use srun to properly utilize allocated resources
 srun \
