@@ -64,4 +64,5 @@ srun \\
         --task ${TASK} \\
         --num_train_epochs 50 \\
         --synth_data_csv ${SYNTH_DATA_CSV}
+"
 EOF
