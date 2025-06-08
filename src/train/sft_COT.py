@@ -83,21 +83,12 @@ def load_and_process_data(args, tokenizer, system_prompt: str):
     logger.info("Processing dataset...")
     try:
         df = pd.read_csv(args.synth_data_csv)
-        if args.express_type == "dir":
-            user_prompt_front = (
-                f"It is given that the gene in question is differentially expressed either, choose one of the following options:\n"
-                "1. upregulated\n"
-                "2. downregulated\n"
-                "CHOSE ONE OF THE ABOVE OPTIONS AND PLACE YOUR CHOICE WITHIN <answer> </answer> TAGS.\n"
-            )
-        else:
-            user_prompt_front = ""
         def convert_to_conversational_format(df):
             dataset_rows = []
             for _, row in df.iterrows():
                 messages = [
                     {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt_front + row['user_prompt']},
+                    {"role": "user", "content": row['user_prompt']},
                     {"role": "assistant", "content": row['assistant_response']}
                 ]
                 text = tokenizer.apply_chat_template(messages, tokenize=False)
