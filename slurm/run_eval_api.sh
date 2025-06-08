@@ -28,7 +28,8 @@ export MASTER_NAME="$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -n1)"
 export MASTER_ADDR="$(srun --nodes=1 --ntasks=1 -w "$MASTER_NAME" hostname --ip-address)"
 
 
-BASE_PATH="/novo/projects/departments/mi/lwph/PertRL"
+BASE_PATH="/path/to/project_dir"
+
 
 # Use srun to properly utilize allocated resources
 srun \
