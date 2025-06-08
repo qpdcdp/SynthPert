@@ -47,9 +47,8 @@ echo "The head node port is \$MASTER_PORT"
 export SLURM_TOTAL_GPUS=\$((\$SLURM_NNODES * \$SLURM_GPUS_ON_NODE))
 echo "Total processes/GPUs: \$SLURM_TOTAL_GPUS"
 
-BASE_PATH="/novo/projects/departments/mi/lwph/PertRL"
-export 
-# Use srun to properly utilize allocated resources
+BASE_PATH="/path/to/project_dir"
+
 srun \\
     --export=ALL \\
     bash -c "export PYTHONPATH=\${BASE_PATH}:\$PYTHONPATH && \\
