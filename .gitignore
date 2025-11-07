@@ -1,0 +1,35 @@
+wandb/
+grpo_gene_think_output/
+*.pyc
+__pycache__/
+*.cpython
+old_tests/
+slurm-*
+logs/
+logs_new/
+logs_old/
+output/
+*.stats
+checkpoints/
+outputs/
+other/
+results/
+test_on_compute.ipynb
+merged_model_for_upload/
+other
+main/
+src/data/loaders.py
+
+# Ignore checkpoints and large artifacts
+checkpoint-*/
+on_data_llama8b_checkpoint-*/
+*.safetensors
+*.bin
+*.pth
+*.pt
+vcc_data/
+vcc_data.zip*
+*.h5ad
+*.ckpt echo ckpts/
+*.ckpt
+ckpts/
