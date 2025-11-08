@@ -1,0 +1,29 @@
+name: cellpert
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - pip:
+    - torch==2.6.0
+    - torchvision==0.21.0
+    - torchaudio==2.6.0
+    - accelerate==1.6.0
+    - bitsandbytes==0.45.5
+    - datasets==3.5.0
+    - deepspeed==0.16.5
+    - einops==0.8.1
+    - huggingface-hub==0.30.1
+    - peft==0.15.1
+    - transformers==4.51.1
+    - trl==0.16.1
+    - tiktoken=xxxx
+    - wandb==0.19.9
+    - langchain-openai
+    - langchain
+    - pydantic
+    - tqdm
+    
