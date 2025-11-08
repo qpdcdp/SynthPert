@@ -1,0 +1,48 @@
+Unnamed: 0,pert,Seahorse_Cluster,Seahorse_Cluster_Explanation,split
+0,ACSS3,1,Increased oxygen consumption rate to extracellular acidification rate ratio,train
+1,BID,1,Increased oxygen consumption rate to extracellular acidification rate ratio,test
+2,PARK2,1,Increased oxygen consumption rate to extracellular acidification rate ratio,train
+3,VDAC2,1,Increased oxygen consumption rate to extracellular acidification rate ratio,train
+4,ACO2,2,Increased extracellular acidification rate and ATP-linked respiration,test
+5,ANGEL2,2,Increased extracellular acidification rate and ATP-linked respiration,train
+6,EXOG,2,Increased extracellular acidification rate and ATP-linked respiration,train
+7,IDH3B,2,Increased extracellular acidification rate and ATP-linked respiration,train
+8,MRPL38,2,Increased extracellular acidification rate and ATP-linked respiration,train
+10,GLXR2,3,No change,train
+11,LINC01184,3,No change,train
+12,LOC284837,3,No change,train
+13,OXCT2,3,No change,test
+14,PNKD,3,No change,train
+15,RAB24,3,No change,train
+16,SFXN2,3,No change,train
+17,SIRT4,3,No change,train
+18,YBEY,3,No change,test
+19,BCL2L13,4,Increased Maximal Respiration,train
+20,DMPK,4,Increased Maximal Respiration,test
+21,PAM16,4,Increased Maximal Respiration,train
+22,SLC25A26,4,Increased Maximal Respiration,test
+23,SUOX,4,Increased Maximal Respiration,train
+24,TOMM7,4,Increased Maximal Respiration,train
+25,AIFM2,5,Increased Proton Leak,test
+26,MRPS14,5,Increased Proton Leak,train
+27,RAMP2-AS1,5,Increased Proton Leak,test
+28,SLC24A37,5,Increased Proton Leak,train
+29,TMEM216,5,Increased Proton Leak,train
+30,ZBED3-AS1,5,Increased Proton Leak,train
+31,AAGEL2,6,Loss of oxidative metabolism,train
+32,AATBC,6,Loss of oxidative metabolism,train
+33,DCAKD,6,Loss of oxidative metabolism,train
+34,DCXR,6,Loss of oxidative metabolism,train
+35,EXD2,6,Loss of oxidative metabolism,train
+36,GLRX2,6,Loss of oxidative metabolism,train
+37,GRPEL1,6,Loss of oxidative metabolism,test
+38,MECR,6,Loss of oxidative metabolism,train
+39,MYO19,6,Loss of oxidative metabolism,train
+40,NADK2,6,Loss of oxidative metabolism,test
+41,NDUFAF1,6,Loss of oxidative metabolism,train
+42,NTHL1,6,Loss of oxidative metabolism,train
+43,PDK2,6,Loss of oxidative metabolism,train
+44,PEMT,6,Loss of oxidative metabolism,test
+45,PPTC7,6,Loss of oxidative metabolism,train
+46,RALY-AS1,6,Loss of oxidative metabolism,train
+47,SLC25A11,6,Loss of oxidative metabolism,test
