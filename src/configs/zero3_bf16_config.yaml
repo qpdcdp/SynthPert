@@ -1,0 +1,25 @@
+compute_environment: LOCAL_MACHINE
+deepspeed_config:
+  # # --- Start: Settings integrated from your JSON ---
+  gradient_accumulation_steps: 8
+  steps_per_print: 10
+  zero_optimization:
+    stage: 3
+    offload_optimizer:
+      device: cpu
+      pin_memory: true
+    offload_param:
+      device: cpu
+      pin_memory: true
+    contiguous_gradients: true
+    overlap_comm: true
+    reduce_scatter: true
+    stage3_prefetch_bucket_size: 5e8 # YAML supports scientific notation
+    stage3_param_persistence_threshold: 1e6 # YAML supports scientific notation
+  bf16:
+    enabled: auto
+  gradient_clipping: 1.0
+  wall_clock_breakdown: false
+  # --- End: Settings integrated from your JSON ---
+  zero3_init_flag: true 
+distributed_type: DEEPSPEED
