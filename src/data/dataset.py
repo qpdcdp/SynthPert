@@ -450,7 +450,7 @@ class DiffExpressionDataset:
                 llm_for_context = ChatOpenAI(
                     model="openai_o3_mini", # Ensure this model name is correct for the endpoint
                     api_key=api_key,
-                    base_url="https://api.marketplace.novo-genai.com/v1", # Ensure this endpoint is correct
+                    base_url="xxxx", # Ensure this endpoint is correct
                     max_retries=3,
                     request_timeout=120,
                 )
