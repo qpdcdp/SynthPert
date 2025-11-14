@@ -313,7 +313,7 @@ def main(args):
     np.random.seed(SEED)
     random.seed(SEED)
     API_KEY = os.getenv("NOVO_GENAI_API_KEY", "xxxxx") # Use env var
-    BASE_URL = "https://api.marketplace.novo-genai.com/v1"
+    BASE_URL = "xxxxx"
     GENERATOR_MODEL_NAME = args.generator_model_name
     CRITIC_MODEL_NAME = args.critic_model_name
 
