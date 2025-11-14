@@ -15,9 +15,6 @@
 #===================================
 
 # ---------- container / paths ----------
-DOCKER_IMAGE=docker://harbor.poc.cco-dev.pub.aws.novonordisk.com/scientific_intelligence/verl:torch2.6.0-vllm0.8.5.post1-cuda124
-SHARED_STORAGE="/dcai"
-SHARED_STORAGE_DATA="/dcai/projects02/data/lwph"
 
 
 # Check if Docker login was successful
