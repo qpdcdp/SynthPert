@@ -25,7 +25,7 @@ def main(args):
     np.random.seed(SEED)
     random.seed(SEED)
 
-    BASE_URL = "https://api.marketplace.novo-genai.com/v1"
+    BASE_URL = "xxxxx"
     API_KEY = "xxxxx" # It's better to load this from an env var
     GENERATOR_MODEL_NAME = args.generator_model_name
     CRITIC_MODEL_NAME = args.critic_model_name
