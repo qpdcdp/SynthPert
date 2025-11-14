@@ -29,7 +29,7 @@ def main(args):
 
     # --- LLM Configuration ---
 
-    BASE_URL = "https://api.marketplace.novo-genai.com/v1"
+    BASE_URL = "xxxx"
     MODEL_NAME = 'openai_o4_mini' # Using the model from the coworker's example for generation
 
     # Initialize LLM
